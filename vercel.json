@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+```
+
+3. **Commit changes** click karo
+
+---
+
+### Step 4: Vercel Pe Deploy Karo
+
+1. **Vercel** pe jao: https://vercel.com
+2. **Sign up with GitHub** (GitHub account se login karo)
+3. **"Add New"** → **"Project"** click karo
+4. **Import Git Repository**
+5. Apni `eip7702-recovery-tool` repository select karo
+6. **Deploy** button click karo
+
+⏳ **Wait 1-2 minutes...**
+
+✅ **Done! Tumhara tool live hai!**
+
+---
+
+### Step 5: Share Your Link
+
+Vercel tumhe ek link dega:
+```
+https://eip7702-recovery-tool.vercel.app
